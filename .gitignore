@@ -172,5 +172,5 @@ cython_debug/
 .pypirc
 cred.txt
 local_s3/
-data/
 models/
+data/
