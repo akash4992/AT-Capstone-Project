@@ -131,11 +131,12 @@ celerybeat.pid
 .env
 .venv
 env/
+penv
 venv/
 ENV/
 env.bak/
 venv.bak/
-
+notebooks
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -167,8 +168,10 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# Ruff stuff:
-.ruff_cache/
-
 # PyPI configuration file
 .pypirc
+cred.txt
+local_s3/
+
+models/
+data/

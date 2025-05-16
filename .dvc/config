@@ -1,0 +1,4 @@
+[core]
+    remote = capstone
+['remote "capstone"']
+    url = s3://dvc-mlops-capstone
