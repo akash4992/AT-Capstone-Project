@@ -1,4 +1,6 @@
 [core]
-    remote = capstone
+    remote = dvcstore
 ['remote "capstone"']
     url = s3://dvc-mlops-capstone
+['remote "dvcstore"']
+    url = s3://akash-dvc-pipeline
