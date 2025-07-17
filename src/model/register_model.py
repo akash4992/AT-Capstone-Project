@@ -15,6 +15,7 @@ warnings.filterwarnings("ignore")
 # -------------------------------------------------------------------------------------
 # Set up DagsHub credentials for MLflow tracking
 dagshub_token = os.getenv("CAPSTONE_TEST")
+# dagshub_token = "eb782affe0decc5536051b051bb3f8fc7cb32e16"
 if not dagshub_token:
     raise EnvironmentError("CAPSTONE_TEST environment variable is not set")
 
